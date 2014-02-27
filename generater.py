@@ -1,4 +1,4 @@
-# /usr/bin/python
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 # Created by sota1235
@@ -16,6 +16,6 @@ def main(r_num):
             ans += s_list[n]
     # 残りを計算
     res = list(r_num)
+    for n in res:
+        ans += num_list[n]
     return ans
-
-print main('IVIXXXVX')
