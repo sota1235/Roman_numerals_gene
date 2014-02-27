@@ -18,4 +18,9 @@ def main(r_num):
     res = list(r_num)
     for n in res:
         ans += num_list[n]
-    return ans
+    print ans
+
+main('XLIX')
+main('MDCCCLXXXVIII')
+main('MCMXLV')
+main('MMMCMXCIX')
